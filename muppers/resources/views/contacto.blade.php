@@ -38,9 +38,10 @@
         <section class="portfolio-block contact" style="background: #080808;color: rgb(255,255,255);">
             <div class="container">
                 <h1 style="text-align: center;">Contáctanos</h1>
-                <form>
+                <form method="POST" action="{{ route('contacto') }}">
+                @csrf  
                     <div class="form-group"><label for="name">Nombre Completo</label><input class="form-control item" type="text" id="name"></div>
-                    <div class="form-group"><label for="subject">Asunto</label><input class="form-control item" type="text" id="subject"></div>
+                    <div class="form-group"><label for="phone">Teléfono</label><input class="form-control item" type="text" id="subject"></div>
                     <div class="form-group"><label for="email">Correo Electrónico</label><input class="form-control item" type="email" id="email"></div>
                     <div class="form-group"><label for="message">Mensaje</label><textarea class="form-control item" id="message"></textarea></div>
                     <div class="form-group"><button class="btn btn-primary btn-block btn-lg" type="submit">ENVIAR</button></div><div>
