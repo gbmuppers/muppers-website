@@ -21,10 +21,6 @@ Route::get('/servicios', function () {
     return view('servicios');
 });
 
-Route::get('/portafolio', function () {
-    return view('portafolio');
-});
-
 Route::get('/preguntas-frecuentes', function () {
     return view('faq');
 });

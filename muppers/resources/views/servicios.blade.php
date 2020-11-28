@@ -44,32 +44,78 @@
                 <div class="col-12 text-center col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="text-center icon-box">
                         <div class="icon"><i class="fab fa-html5" style="margin-bottom: 15px;"></i>
-                            <h4 class="title">Lorem Ipsum<a href="#"></a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi<br>&nbsp; &nbsp; &nbsp; ijdiojwefjweofjiw<br>wfjoiwejoweijfweoj<br><br><br>weijfoiwejfowejfowejf<br><br>jweoifweofjewoifweiof</p>
+                            <h4 class="title">Página Web</h4>
+                            <p class="description">Página web para tu empresa.&nbsp; Este producto cuenta con las siguientes características:</p>
+                            <ul class="description" style="text-align: left;">
+                                <li>1 Dominio</li>
+                                <li>1 Cuenta de correo electrónico&nbsp;</li>
+                                <li>Hosting (alojamiento) gratis por 1 año</li>
+                                <li>Certificado de Seguridad SSL</li>
+                                <li>1 Propuesta de diseño gráfico básico.</li>
+                                <li>Hasta 4 secciones de información</li>
+                                <li>Formulario de contacto básico</li>
+                                <li>Hasta 10 imágenes sin copyright o proporcionadas&nbsp; por el cliente</li>
+                                <li>Mapa de Google Maps con la dirección de tu empresa.</li>
+                                <li>1 cambio de información al mes (no acumulable)</li>
+                                <li>Posibilidad de actualizar a nuestro producto "Página Web 2.0"</li>
+                            </ul>
+                            <h1 class="description price-service" style="text-align: center;font-size: 1.5em;padding-top: 1em;">$4,000.00 MXN</h1>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 text-center col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="text-center icon-box">
                         <div class="icon"><i class="fas fa-rocket" style="margin-bottom: 15px;"></i>
-                            <h4 class="title">Lorem Ipsum<a href="#"></a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi<br>&nbsp; &nbsp; &nbsp;&nbsp;</p>
+                            <h4 class="title">Página Web 2.0</h4>
+                            <p class="description">Obtén más beneficios que con nuestro producto "Página Web".&nbsp; Página Web 2.0 te ofrece:</p>
+                            <ul class="description" style="text-align: left;">
+                                <li>Si cuentas con el producto "Página Web" puedes actualizar tu plan a "Página Web 2.0", contáctanos para más detalles. :)</li>
+                                <li>1 Dominio</li>
+                                <li>5 Cuentas de correo electrónico&nbsp;</li>
+                                <li>Hosting (alojamiento) gratis por 1 año</li>
+                                <li>Certificado de Seguridad SSL</li>
+                                <li>1 Propuesta de diseño gráfico básico.</li>
+                                <li>Slider con hasta 3 imágenes (carrusel de imágen con texto)</li>
+                                <li>Hasta 10 secciones de información</li>
+                                <li>Formulario de contacto con hasta 10 campos</li>
+                                <li>Hasta 20 imágenes sin copyright o proporcionadas&nbsp; por el cliente</li>
+                                <li>Mapa de Google Maps con la dirección de tu empresa.</li>
+                                <li>Hasta 4 cambios de información al mes (no acumulable)</li>
+                            </ul>
+                            <h1 class="description price-service" style="text-align: center;font-size: 1.5em;padding-top: 1em;">$9,500.00 MXN</h1>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 text-center col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="text-center icon-box">
-                        <div class="icon"><i class="fas fa-shopping-cart" style="margin-bottom: 15px;"></i>
-                            <h4 class="title">Lorem Ipsum<a href="#"></a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi<br>&nbsp; &nbsp; &nbsp;&nbsp;</p>
+                        <div class="icon"><i class="fas fa-cogs" style="margin-bottom: 15px;"></i>
+                            <h4 class="title">Web 3.0</h4>
+                            <p class="description">Obtén todos los beneficios del producto "Página Web 2.0".&nbsp; Web 3.0 te ofrece:</p>
+                            <ul class="description" style="text-align: left;">
+                                <li>Si cuentas con el producto "Página Web" o "Página Web 2.0" puedes actualizar tu plan a "Web 3.0", contáctanos para más detalles. :)</li>
+                                <li>1 Dominio</li>
+                                <li>10 Cuentas de correo electrónico&nbsp;</li>
+                                <li>Hosting (alojamiento) gratis por 1 año</li>
+                                <li>Certificado de Seguridad SSL</li>
+                                <li>1 Propuesta de diseño gráfico básico.</li>
+                                <li>Slider con hasta 3 imágenes (carrusel de imágen con texto)</li>
+                                <li>Hasta 10 secciones de información</li>
+                                <li>Formulario de contacto con hasta 10 campos</li>
+                                <li>Hasta 20 imágenes sin copyright o proporcionadas&nbsp; por el cliente</li>
+                                <li>Mapa de Google Maps con la dirección de tu empresa.</li>
+                                <li>Administrador de contenidos (Usted podrá cambiar el contenido de su página web sin depender de nosotros).</li>
+                                <li>Capacitación remota y manual de usuario para el administrador de contenidos.</li>
+                            </ul>
+                            <h1 class="description price-service" style="text-align: center;font-size: 1.5em;padding-top: 1em;">$13,000.00 MXN</h1>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 text-center col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="text-center icon-box">
                         <div class="icon"><i class="fab fa-themeco" style="margin-bottom: 15px;"></i>
-                            <h4 class="title">Lorem Ipsum<a href="#"></a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi<br>&nbsp; &nbsp; &nbsp;&nbsp;</p>
+                            <h4 class="title">Personalizado</h4>
+                            <p class="description">¿Nuestros productos no se adaptan a tus necesidades? ¡No te preocupes!<br>En Muppers podemos desarrollar lo que tú necesites. Contáctanos y cuéntanos lo que necesitas, estaremos encantados de cotizar un proyecto hecho a la
+                                medida de tus necesidades.<br><br></p>
                         </div>
                     </div>
                 </div>

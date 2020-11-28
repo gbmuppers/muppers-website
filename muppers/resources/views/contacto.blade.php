@@ -49,9 +49,9 @@
     <div class="container">
         <p style="text-align:center;">También puedes contactarnos a través de</p>
         <div class="social-icons">
-            <a href="https://instagram.com/muppers_corp?igshid=1v53c7avxs70"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.facebook.com/Muppers-104332594467041"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://wa.me/525611566832/?text=Hola,%20me%20interesan%20sus%20servicios%2E"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://instagram.com/muppers_corp?igshid=1v53c7avxs70" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.facebook.com/Muppers-104332594467041" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/525611566832/?text=Hola,%20me%20interesan%20sus%20servicios%2E" target="_blank"><i class="fa fa-whatsapp"></i></a>
         </div>
     </div>
 </div>
