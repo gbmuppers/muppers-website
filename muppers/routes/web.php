@@ -30,4 +30,5 @@ Route::get('/preguntas-frecuentes', function () {
 });
 
 Route::view('/contacto','contacto')->name('contacto');
+Route::view('/Contacto','contacto')->name('contacto');
 Route::post('contacto','ContactController@store');
