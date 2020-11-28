@@ -28,3 +28,6 @@ Route::get('/portafolio', function () {
 Route::get('/preguntas-frecuentes', function () {
     return view('faq');
 });
+
+Route::view('/contacto','contacto')->name('contacto');
+Route::post('contacto','ContactController@store');
