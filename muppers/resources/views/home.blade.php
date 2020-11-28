@@ -22,14 +22,14 @@
 </head>
 
 <body style="background: #080808;"><nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark navbar--apple">
-    <div class="container"><a class="navbar-brand nav-link" href="https://muppers.com"><img class="muppers-logo" alt="Muppers.com" src="assets/img/muppers/muppers-logo.jpg"> Muppers</a> <button data-toggle="collapse" data-target="#menu" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"><i class="la la-navicon"></i></span></button>
+    <div class="container"><a class="navbar-brand nav-link" href="/"><img class="muppers-logo" alt="Muppers.com" src="assets/img/muppers/muppers-logo.jpg"> Muppers</a> <button data-toggle="collapse" data-target="#menu" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"><i class="la la-navicon"></i></span></button>
         <div class="collapse navbar-collapse" id="menu">
             <ul class="nav navbar-nav flex-grow-1 justify-content-between">
                 <li class="nav-item d-none d-xs-block d-md-block"></li>
-                <li class="nav-item"><a class="nav-link" href="https://muppers.com/contacto">Contáctanos</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://muppers.com/servicios">Servicios</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://muppers.com/portafolio">Proyectos</a></li>
-                <li class="nav-item"><a class="nav-link" href="https://muppers.com/preguntas-frecuentes">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contacto">Contáctanos</a></li>
+                <li class="nav-item"><a class="nav-link" href="/servicios">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="/portafolio">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="/preguntas-frecuentes">FAQ</a></li>
             </ul>
         </div>
     </div>
@@ -39,7 +39,7 @@
             <div class="jumbotron hero-nature carousel-hero">
                 <h1 class="hero-title">Muppers</h1>
                 <p class="hero-subtitle">Somos expertos en soluciones de software empresarial y consultoría organizacional para todo tipo de negocio.<br /></p>
-                <p><a class="btn btn-primary btn-lg hero-button" role="button" href="https://www.muppers.com/contacto">Contáctanos</a></p>
+                <p><a class="btn btn-primary btn-lg hero-button" role="button" href="/contacto">Contáctanos</a></p>
             </div>
         </div>
     </div>
@@ -51,9 +51,9 @@
                 <p class="text-center" style="color: rgb(205,209,211);font-size: 1.02rem;">En Muppers nos importa que obtengas lo que quieres con la mejor calidad y al precio más justo. <br>Nos encargamos de hacer landing pages, páginas web, tiendas online y software especializado que necesites para hacer crecer tu negocio.
                     <br>Te invitamos a ver nuestro portafolio para conocer los proyectos que hemos realizados antes y puedas comprobar lo buenos que somos.</p>
             </div>
-            <div class="buttons"><a class="btn btn-primary" role="button" href="https://muppers.com/servicios" style="background: #ea2441;box-shadow: 0 0 1em rgb(210,32,58);/*text-shadow: 0 0 1em #ffffff,0 0 5em #fb0000;*/border-color: #fb0000;opacity: 1;">Nuestros servicios</a>
+            <div class="buttons"><a class="btn btn-primary" role="button" href="/servicios" style="background: #ea2441;box-shadow: 0 0 1em rgb(210,32,58);/*text-shadow: 0 0 1em #ffffff,0 0 5em #fb0000;*/border-color: #fb0000;opacity: 1;">Nuestros servicios</a>
                 <button
-                    class="btn btn-light" type="button" style="color: rgb(255,255,255);background: rgb(107,44,239);box-shadow: 0 0 1em rgb(97,44,216);/*text-shadow: 0 0 1em #ffffff,0 0 5em rgb(97,44,216);*/border-color: rgb(97,44,216);opacity: 1;" onclick="location.href=&quot;https://muppers.com/portafolio&quot;">Nuestro portafolio</button>
+                    class="btn btn-light" type="button" style="color: rgb(255,255,255);background: rgb(107,44,239);box-shadow: 0 0 1em rgb(97,44,216);/*text-shadow: 0 0 1em #ffffff,0 0 5em rgb(97,44,216);*/border-color: rgb(97,44,216);opacity: 1;" onclick="location.href=&quot;/portafolio&quot;">Nuestro portafolio</button>
             </div>
         </div>
     </div>
@@ -90,10 +90,10 @@
 "></i></a><a href="https://www.facebook.com/Muppers-104332594467041" target="_blank"><i class="fab fa-facebook-f" style="color: #f2f5f8;
 "></i></a></div>
         <ul class="list-inline">
-            <li class="list-inline-item"><a href="https://muppers.com">Inicio</a></li>
-            <li class="list-inline-item"><a href="https://muppers.com/servicios">Servicios</a></li>
-            <li class="list-inline-item"><a href="https://muppers.com/sobre-nosotros">Sobre Nosotros</a></li>
-            <li class="list-inline-item"><a href="https://muppers.com/preguntas-frecuentes">FAQ</a></li>
+            <li class="list-inline-item"><a href="/">Inicio</a></li>
+            <li class="list-inline-item"><a href="/servicios">Servicios</a></li>
+            <li class="list-inline-item"><a href="/sobre-nosotros">Sobre Nosotros</a></li>
+            <li class="list-inline-item"><a href="/preguntas-frecuentes">FAQ</a></li>
         </ul>
         <p class="copyright">Muppers © 2020</p>
     </footer>
