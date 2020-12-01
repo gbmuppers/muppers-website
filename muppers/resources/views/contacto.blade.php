@@ -26,7 +26,7 @@
         <section class="portfolio-block contact" style="background: #080808;color: rgb(255,255,255);">
             <div class="container">
                 <h1 style="text-align: center;">Contáctanos</h1>
-                <form method="POST" action="{{ url('/contacto') }}">     
+                <form method="POST" action="{{ route('contacto') }}">     
                 @csrf   
                     <div class="form-group"><label for="name">Nombre completo</label><input class="form-control item" type="text" id="name"></div>
                     <div class="form-group"><label for="name">Empresa</label><input class="form-control item" type="text" id="name-1"></div>
