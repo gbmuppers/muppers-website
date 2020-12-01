@@ -5,5 +5,6 @@
 <p>Nombre: {{ $msj['name']}}<br>
 Teléfono: {{ $msj['phone']}}<br>
 Correo: {{ $msj['email']}}<br>
+Empresa: {{ $msj['name-1']}}<br>
 </p>
 
