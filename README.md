@@ -8,8 +8,8 @@
  
  composer install
 
-
  php artisan key:generate
  
  Now you can execute the project using:
+
  php artisan serve
