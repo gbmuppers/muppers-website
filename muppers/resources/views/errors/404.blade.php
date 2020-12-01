@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -8,7 +9,6 @@
     <meta property="og:image" content="assets/img/muppers/muppers-logo.jpg">
     <meta name="description" content="404 page not found">
     <meta property="og:type" content="">
-
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
@@ -21,19 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
 
-<body><nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark navbar--apple">
-    <div class="container"><a class="navbar-brand nav-link" href="/"><img class="muppers-logo" alt="Muppers.com" src="assets/img/muppers/muppers-logo.jpg"> Muppers</a> <button data-toggle="collapse" data-target="#menu" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"><i class="la la-navicon"></i></span></button>
-        <div class="collapse navbar-collapse" id="menu">
-            <ul class="nav navbar-nav flex-grow-1 justify-content-between">
-                <li class="nav-item d-none d-xs-block d-md-block"></li>
-                <li class="nav-item"><a class="nav-link" href="/contacto">Contáctanos</a></li>
-                <li class="nav-item"><a class="nav-link" href="/servicios">Servicios</a></li>
-                <li class="nav-item"><a class="nav-link" href="/portafolio">Proyectos</a></li>
-                <li class="nav-item"><a class="nav-link" href="/preguntas-frecuentes">FAQ</a></li>
-            </ul>
-        </div>
-    </div>
-</nav><main class="page contact-page">
+<body><main class="page contact-page">
     <section class="portfolio-block contact" style="background: #080808;color: rgb(255,255,255);">
         <div class="container">
             <!--
@@ -74,7 +62,19 @@ DRIBBBLE: https://dribbble.com/shots/4330167-404-Page-Lost-In-Space
 </body>
         </div>
     </section>
-</main><div class="footer-basic" style="  background: #080808;
+</main><nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark navbar--apple">
+    <div class="container">
+        <a class="navbar-brand nav-link" href="/"><img class="muppers-logo" alt="Muppers.com" src="assets/img/muppers/muppers-logo.jpg"> Muppers</a> <button data-toggle="collapse" data-target="#menu" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"><i class="la la-navicon"></i></span></button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav flex-grow-1 justify-content-between">
+                <li class="nav-item d-none d-xs-block d-md-block"></li>
+                <li class="nav-item"><a class="nav-link" href="/contacto">Contáctanos</a></li>
+                <li class="nav-item"><a class="nav-link" href="/sobre-nosotros">Sobre nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="/nuestros-clientes">Nuestros clientes</a></li>
+            </ul>
+        </div>
+    </div>
+</nav><div class="footer-basic" style="  background: #080808;
   color: rgb(255,255,255);
 ">
     <footer>
@@ -85,7 +85,6 @@ DRIBBBLE: https://dribbble.com/shots/4330167-404-Page-Lost-In-Space
 "></i></a></div>
         <ul class="list-inline">
             <li class="list-inline-item"><a href="/">Inicio</a></li>
-            <li class="list-inline-item"><a href="/servicios">Servicios</a></li>
             <li class="list-inline-item"><a href="/sobre-nosotros">Sobre Nosotros</a></li>
             <li class="list-inline-item"><a href="/preguntas-frecuentes">FAQ</a></li>
         </ul>

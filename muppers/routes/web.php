@@ -17,13 +17,10 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/servicios', function () {
-    return view('servicios');
+Route::get('/nuestros-clientes', function () {
+    return view('patterns');
 });
 
-Route::get('/preguntas-frecuentes', function () {
-    return view('faq');
-});
 
 Route::view('/contacto','contacto')->name('contacto');
 Route::view('/Contacto','contacto')->name('contacto');

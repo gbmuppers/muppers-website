@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Contacto | Muppers.com</title>
-    <meta property="og:type" content="website">
+    <title>Clientes | Muppers.com</title>
     <meta property="og:title" content="Muppers">
-    <meta name="description" content="Muppers. Software Development Company | Empresa de desarrollo de software. Contáctanos.">
     <meta property="og:image" content="assets/img/muppers/muppers-logo.jpg">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Muppers. Software Development Company | Empresa de Desarrollo de Software.  Nuestros clientes.">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
@@ -22,30 +22,28 @@
 </head>
 
 <body>
-    <main class="page contact-page">
-        <section class="portfolio-block contact" style="background: #080808;color: rgb(255,255,255);">
+    <main class="page projects-page">
+        <section class="portfolio-block projects-cards" style="color: rgb(255,255,255);background: #080808;">
             <div class="container">
-                <h1 style="text-align: center;">Contáctanos</h1>
-                <form>
-                    <div class="form-group"><label for="name">Nombre completo</label><input class="form-control item" type="text" id="name"></div>
-                    <div class="form-group"><label for="name">Empresa</label><input class="form-control item" type="text" id="name-1"></div>
-                    <div class="form-group"><label for="subject">Número telefónico</label><input id="cellphone" type="tel" class="form-control item"></div>
-                    <div class="form-group"><label for="email">Correo electrónico</label><input class="form-control item" type="email" id="email"></div>
-                    <div class="form-group"><label for="message">Cuéntenos cómo podemos ayudarle</label><textarea class="form-control item" id="message"></textarea></div>
-                    <div class="form-group"><button class="btn btn-primary btn-block btn-lg" type="submit">ENVIAR</button></div><div>
-    <div class="container">
-        <p style="text-align:center;">También puedes contactarnos a través de</p>
-        <div class="social-icons">
-            <a href="https://instagram.com/muppers_corp?igshid=1v53c7avxs70" target="_blank"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.facebook.com/Muppers-104332594467041" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://wa.me/525611566832/?text=Hola,%20me%20interesan%20sus%20servicios%2E" target="_blank"><i class="fa fa-whatsapp"></i></a>
-        </div>
-    </div>
-</div>
-</form>
+                <div class="heading">
+                    <h2>EMPRESAS con las que hemos trabajado</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><img class="card-img-top w-100 d-block card-img-top scale-on-hover" src="assets/img/muppers/yescas.png" alt="Card Image" style="height: 10em;max-width: 10em;max-height: 10em;min-height: 10em;min-width: 10em;width: 10em;">
+                            <div class="card-body">
+                                <h6><a href="#">Grupo Constructor Yescas</a></h6>
+                                <p class="text-muted card-text">Sistema de gestión de reporte de gastos y&nbsp; empleados</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-    </main><nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark navbar--apple">
+    </main>
+    <div id="fixed-social">
+        <div><a class="fixed-facebook" href="https://www.facebook.com/Muppers-104332594467041" target="_blank"><i class="fa fa-facebook"></i><span>&nbsp;Facebook</span></a></div>
+        <div><a class="fixed-instagram" href="https://instagram.com/muppers_corp?igshid=1v53c7avxs70" target="_blank"><i class="fa fa-instagram"></i><span>&nbsp;Instagram</span></a></div><div><a class="fixed-whatsapp" href="https://wa.me/525611566832/?text=Hola,%20me%20interesan%20sus%20servicios%2E" target="_blank"><i class="fa fa-whatsapp"></i><span> WhatsApp</span></a></div></div><nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark navbar--apple">
     <div class="container">
         <a class="navbar-brand nav-link" href="/"><img class="muppers-logo" alt="Muppers.com" src="assets/img/muppers/muppers-logo.jpg"> Muppers</a> <button data-toggle="collapse" data-target="#menu" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"><i class="la la-navicon"></i></span></button>
         <div class="collapse navbar-collapse" id="menu">
@@ -74,10 +72,11 @@
         <p class="copyright">Muppers © 2020</p>
     </footer>
 </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+        <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>

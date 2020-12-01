@@ -22,14 +22,14 @@
 </head>
 
 <body style="background: #080808;"><nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark navbar--apple">
-    <div class="container"><a class="navbar-brand nav-link" href="/"><img class="muppers-logo" alt="Muppers.com" src="assets/img/muppers/muppers-logo.jpg"> Muppers</a> <button data-toggle="collapse" data-target="#menu" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"><i class="la la-navicon"></i></span></button>
+    <div class="container">
+        <a class="navbar-brand nav-link" href="/"><img class="muppers-logo" alt="Muppers.com" src="assets/img/muppers/muppers-logo.jpg"> Muppers</a> <button data-toggle="collapse" data-target="#menu" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"><i class="la la-navicon"></i></span></button>
         <div class="collapse navbar-collapse" id="menu">
             <ul class="nav navbar-nav flex-grow-1 justify-content-between">
                 <li class="nav-item d-none d-xs-block d-md-block"></li>
                 <li class="nav-item"><a class="nav-link" href="/contacto">Contáctanos</a></li>
-                <li class="nav-item"><a class="nav-link" href="/servicios">Servicios</a></li>
-                <li class="nav-item"><a class="nav-link" href="/portafolio">Proyectos</a></li>
-                <li class="nav-item"><a class="nav-link" href="/preguntas-frecuentes">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="/sobre-nosotros">Sobre nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="/nuestros-clientes">Nuestros clientes</a></li>
             </ul>
         </div>
     </div>
@@ -44,43 +44,58 @@
         </div>
     </div>
 </div>
-    <div class="highlight-clean" style="background: #080808;color: #ffffff;border-top-width: 1px;border-top-color: rgb(86,81,81);">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center" style="font-size: 2.5rem;">Muppers es calidad</h2>
-                <p class="text-center" style="color: rgb(205,209,211);font-size: 1.02rem;">En Muppers nos importa que obtengas lo que quieres con la mejor calidad y al precio más justo. <br>Nos encargamos de hacer landing pages, páginas web, tiendas online y software especializado que necesites para hacer crecer tu negocio.
-                    <br>Te invitamos a ver nuestro portafolio para conocer los proyectos que hemos realizados antes y puedas comprobar lo buenos que somos.</p>
+    <div class="container" style="margin-top: 0;">
+        <div class="row" style="margin-top: 2.5em;">
+            <div class="col-md-6" style="border: 0 none #cdd1d3 ;">
+                <h1 style="text-align: center;color: rgb(255,255,255);font-size: 2.5rem;">Visión</h1>
+                <p style="text-align: center;font-size: 1.02rem;color: rgb(255,255,255);">&nbsp;Ser la empresa líder en el estado de Oaxaca en soluciones de sofware empresarial, procurando el éxito de nuestros clientes en su integración tecnológica empresarial.<br></p>
             </div>
-            <div class="buttons"><a class="btn btn-primary" role="button" href="/servicios" style="background: #ea2441;box-shadow: 0 0 1em rgb(210,32,58);/*text-shadow: 0 0 1em #ffffff,0 0 5em #fb0000;*/border-color: #fb0000;opacity: 1;">Nuestros servicios</a>
-                <button
-                    class="btn btn-light" type="button" style="color: rgb(255,255,255);background: rgb(107,44,239);box-shadow: 0 0 1em rgb(97,44,216);/*text-shadow: 0 0 1em #ffffff,0 0 5em rgb(97,44,216);*/border-color: rgb(97,44,216);opacity: 1;" onclick="location.href=&quot;/portafolio&quot;">Nuestro portafolio</button>
+            <div class="col-md-6" style="border: 0 none #cdd1d3 ;">
+                <h1 style="text-align: center;color: rgb(255,255,255);font-size: 2.5rem;">Misión</h1>
+                <p style="text-align: center;font-size: 1.02rem;color: rgb(255,255,255);">Facilitar la transisión al siguiente nivel empresarial de nuestros clientes, ofreciendo software seguro, de calidad y personalizado.</p>
             </div>
         </div>
-    </div>
-    <div style="color: #cdd1d3;background: #080808;padding: 2.5em;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6" style="border: 0 none #cdd1d3 ;">
-                    <h1 style="text-align: center;color: rgb(255,255,255);font-size: 2.5rem;">Visión</h1>
-                    <p style="text-align: center;font-size: 1.02rem;">&nbsp;Ser la empresa líder en el estado de Oaxaca en soluciones de sofware empresarial, procurando el éxito de nuestros clientes en su integración tecnológica empresarial.<br></p>
+        <h1 style="text-align: center;padding-top: 1em;color: rgb(255,255,255);padding-bottom: .5em;">Nuestros Servicios</h1>
+        <section id="services" class="services" style="margin-top: 1.5em;">
+            <div class="container-md section-title">
+                <div class="text-center"></div>
+                <div class="row">
+                    <div class="col-12 text-center col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="text-center icon-box" style="color: rgb(0,0,0);background: rgb(255,255,255);">
+                            <div class="icon"><img src="assets/img/muppers/computer.svg" style="padding-bottom: 1em;">
+                                <h4 class="title">Diseño Gráfico Profesional</h4><a href="/contacto" style="color: rgb(25,168,248);border-color: rgb(0,133,255);">Cuéntanos que necesitas</a></div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="text-center icon-box" style="color: rgb(0,0,0);background: rgb(255,255,255);">
+                            <div class="icon"><img src="assets/img/muppers/coding.svg" style="padding-bottom: 1em;">
+                                <h4 class="title">Desarrollo de Aplicaciones Móviles</h4><a href="/contacto" style="color: rgb(25,168,248);border-color: rgb(0,133,255);">Cuéntanos que necesitas</a></div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="text-center icon-box" style="color: rgb(0,0,0);background: rgb(255,255,255);">
+                            <div class="icon"><img src="assets/img/muppers/seo.svg" style="padding-bottom: 1em;">
+                                <h4 class="title">Desarrollo de Páginas Web y Landing Pages</h4><a href="/planes-paginas-web" style="color: rgb(25,168,248);border-color: rgb(0,133,255);">Ver planes</a></div>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="text-center icon-box" style="color: rgb(0,0,0);background: rgb(255,255,255);">
+                            <div class="icon"><img src="assets/img/muppers/planning-strategy.svg" style="padding-bottom: 1em;">
+                                <h4 class="title">Hacemos software a la medida</h4><a href="/contacto" style="color: rgb(25,168,248);border-color: rgb(0,133,255);">Cuéntanos que necesitas</a></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6" style="border: 0 none #cdd1d3 ;">
-                    <h1 style="text-align: center;color: rgb(255,255,255);font-size: 2.5rem;">Misión</h1>
-                    <p style="text-align: center;font-size: 1.02rem;">Facilitar la transisión al siguiente nivel empresarial de nuestros clientes, ofreciendo software seguro, de calidad y personalizado.</p>
-                </div>
             </div>
+        </section>
+    </div>
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center" style="font-size: 2.5rem;line-height: 48px;color: rgb(255,255,255);">Trabajamos con las mejores herramientas</h2>
         </div>
     </div>
-    <div class="highlight-clean" style="background: #080808;color: #ffffff;margin-bottom: -5em;">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center" style="font-size: 2.5rem;line-height: 48px;">Trabajamos con las mejores herramientas</h2>
-            </div>
-        </div>
-    </div>
-    <div class="social-icons"><img width="80em" src="assets/img/tech/docker.png" style="margin: 1em;"><img width="80em" src="assets/img/tech/git.png" style="margin: 1em;"><img width="80em" src="assets/img/tech/github.png" style="margin: 1em;"><img width="80em" src="assets/img/tech/google-cloud.png" style="margin: 1em;">
+    <div class="social-icons"><img width="80em" src="assets/img/tech/git.png" style="margin: 1em;"><img width="80em" src="assets/img/tech/github.png" style="margin: 1em;"><img width="80em" src="assets/img/tech/google-cloud.png" style="margin: 1em;"><img width="80em" src="assets/img/tech/laravel.png" style="margin: 1em;">
         <img
-            width="80em" src="assets/img/tech/laravel.png" style="margin: 1em;"><img width="80em" src="assets/img/tech/mysql.png" style="margin: 1em;"><img width="80em" src="assets/img/tech/nodejs.png" style="margin: 1em;"><img width="80em" src="assets/img/tech/vuejs.png" style="margin: 1em;"></div><div class="footer-basic" style="  background: #080808;
+            width="80em" src="assets/img/tech/mysql.png" style="margin: 1em;"><img width="80em" src="assets/img/tech/nodejs.png" style="margin: 1em;"><img width="80em" src="assets/img/tech/vuejs.png" style="margin: 1em;"></div><div class="footer-basic" style="  background: #080808;
   color: rgb(255,255,255);
 ">
     <footer>
@@ -91,7 +106,6 @@
 "></i></a></div>
         <ul class="list-inline">
             <li class="list-inline-item"><a href="/">Inicio</a></li>
-            <li class="list-inline-item"><a href="/servicios">Servicios</a></li>
             <li class="list-inline-item"><a href="/sobre-nosotros">Sobre Nosotros</a></li>
             <li class="list-inline-item"><a href="/preguntas-frecuentes">FAQ</a></li>
         </ul>
