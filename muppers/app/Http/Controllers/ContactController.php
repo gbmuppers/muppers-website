@@ -19,7 +19,7 @@ class ContactController extends Controller
         ]);
 
         //Enviar email
-        Mail::to('contacto.muppers@gmail.com')->queue(new MailRecibido($msj));
+        Mail::to('gibran.muppers@gmail.com')->queue(new MailRecibido($msj));
         return redirect()->back();
     }
 }
