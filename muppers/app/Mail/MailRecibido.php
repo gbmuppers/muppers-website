@@ -12,16 +12,16 @@ class MailRecibido extends Mailable
     use Queueable, SerializesModels;
 
     public $subject = "Solicitud cliente";
-    public $msj;    
+    public $data;    
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($msj)
+    public function __construct($data)
     {
-        $this->msj = $msj;
-    }
+        $this->data = $data;   
+    } 
 
     /**
      * Build the message.
@@ -30,6 +30,6 @@ class MailRecibido extends Mailable
      */
     public function build()
     {
-        return $this->view('contenidoemail');
+        return $this->view('contenido');   
     }
 }
