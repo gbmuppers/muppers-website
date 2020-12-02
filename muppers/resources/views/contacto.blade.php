@@ -27,13 +27,23 @@
             <div class="container">
                 <h1 style="text-align: center;">Contáctanos</h1>
                 <form method="POST" action="{{ route('contacto') }}">     
-                @csrf   
-                    <div class="form-group"><label for="name">Nombre completo</label><input class="form-control item" type="text" id="name"></div>
-                    <div class="form-group"><label for="name">Empresa</label><input class="form-control item" type="text" id="name-1"></div>
-                    <div class="form-group"><label for="subject">Número telefónico</label><input id="cellphone" type="tel" class="form-control item"></div>
-                    <div class="form-group"><label for="email">Correo electrónico</label><input class="form-control item" type="email" id="email"></div>
-                    <div class="form-group"><label for="message">Cuéntenos cómo podemos ayudarle</label><textarea class="form-control item" id="message"></textarea></div>
-                    <div class="form-group"><button class="btn btn-primary btn-block btn-lg" type="submit">ENVIAR</button></div><div>
+                @csrf                   
+                    <div class="form-group"><label for="name">Nombre completo</label>
+                    <input class="form-control item" type="text" name="nombre" required></div>
+                    <!--{!! $errors->first('nombre', '<small>:message</small><br>')!!}-->
+                    <div class="form-group"><label for="name">Empresa</label>
+                    <input class="form-control item" type="text"  name="empresa"></div>
+                    <!--{!! $errors->first('empresa', '<small>:message</small><br>')!!}-->
+                    <div class="form-group"><label for="subject">Número telefónico</label>
+                    <input type="tel" class="form-control item" name="telefono" required></div>
+                    <!--{!! $errors->first('telefono', '<small>:message</small><br>')!!}-->
+                    <div class="form-group"><label for="email">Correo electrónico</label>
+                    <input class="form-control item" type="email"  name="correo" required></div>
+                    <!--{!! $errors->first('correo', '<small>:message</small><br>')!!}-->
+                    <div class="form-group"><label for="message">Cuéntenos cómo podemos ayudarle</label>
+                    <textarea class="form-control item" name="mensaje" required></textarea></div>
+                    <!--{!! $errors->first('mensaje', '<small>:message</small><br>')!!}-->
+                    <div class="form-group"><button class="btn btn-primary btn-block btn-lg">ENVIAR</button></div><div>
     <div class="container">
         <p style="text-align:center;">También puedes contactarnos a través de</p>
         <div class="social-icons">

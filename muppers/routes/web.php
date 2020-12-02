@@ -22,6 +22,10 @@ Route::get('/nuestros-clientes', function () {
 });
 
 
+Route::get('/Contacto', function () {
+    return view('contacto');
+});
+
 Route::view('/contacto','contacto')->name('contacto');
-Route::view('/Contacto','contacto')->name('contacto');
+
 Route::post('contacto','ContactController@store');

@@ -11,15 +11,16 @@ class ContactController extends Controller
 {
     public function store()
     { 
-        $msj = request() -> validate([
-            'name-' => 'required',
-            'phone' => 'required',
-            'email' => 'required|email',            
-            'message' => 'required',
+        $data = request() -> validate([
+            'nombre' => 'required',            
+            'empresa' => '',            
+            'telefono' => 'required',            
+            'correo' => 'required|email',            
+            'mensaje' => 'required'
         ]);
 
         //Enviar email
-        Mail::to('gibran.muppers@gmail.com')->queue(new MailRecibido($msj));
-        return redirect()->back();
+        Mail::to('gibran.muppers@gmail.com')->queue(new MailRecibido($data));                
+        return redirect()->route('contacto');  
     }
 }
