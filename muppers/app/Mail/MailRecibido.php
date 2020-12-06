@@ -21,8 +21,7 @@ class MailRecibido extends Mailable
     public function __construct($data)
     {
         $this->data = $data;   
-    } 
-
+    }        
     /**
      * Build the message.
      *
@@ -30,6 +29,6 @@ class MailRecibido extends Mailable
      */
     public function build()
     {
-        return $this->view('contenido');   
+        return $this->view('contenido');      
     }
 }

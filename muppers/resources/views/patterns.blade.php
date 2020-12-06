@@ -14,25 +14,75 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.muppers.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
 </head>
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v9.0'
+          });
+        };
 
-<body>
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="104332594467041"
+  theme_color="#0A7CFF"
+  logged_in_greeting="¡Hola! Bienvenido a Muppers.com ¿Cómo podemos ayudarte?"
+  logged_out_greeting="¡Hola! Bienvenido a Muppers.com ¿Cómo podemos ayudarte?">
+      </div>
+<body><nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark navbar--apple">
+    <div class="container">
+        <a class="navbar-brand nav-link" href="/"><img class="muppers-logo" alt="Muppers.com" src="assets/img/muppers/muppers-logo.jpg"> Muppers</a> <button data-toggle="collapse" data-target="#menu" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"><i class="la la-navicon"></i></span></button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav flex-grow-1 justify-content-between">
+                <li class="nav-item d-none d-xs-block d-md-block"></li>
+                <li class="nav-item"><a class="nav-link" href="/contacto">Contáctanos</a></li>
+                <li class="nav-item"><a class="nav-link" href="/sobre-nosotros">Sobre nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="/nuestros-clientes">Nuestros clientes</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
     <main class="page projects-page">
         <section class="portfolio-block projects-cards" style="color: rgb(255,255,255);background: #080808;">
             <div class="container">
                 <div class="heading">
-                    <h2>Empresas con las que hemos trabajado</h2>
+                    <h2>EMPRESAS con las que hemos trabajado</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
                         <div class="card border-0"><img class="card-img-top w-100 d-block card-img-top scale-on-hover" src="assets/img/muppers/yescas.png" alt="Card Image" style="height: 10em;max-width: 10em;max-height: 10em;min-height: 10em;min-width: 10em;width: 10em;">
                             <div class="card-body">
-                                <h6><a href="#">Grupo Constructor Yescas</a></h6>
+                                <h6><a href="">Grupo Constructor Yescas</a></h6>
                                 <p class="text-muted card-text">Sistema de gestión de reporte de gastos y&nbsp; empleados</p>
                             </div>
                         </div>
@@ -49,27 +99,12 @@
                 </div>
             </div>
         </section>
-    </main>
-    <div id="fixed-social">
-        <div><a class="fixed-facebook" href="https://www.facebook.com/Muppers-104332594467041" target="_blank"><i class="fa fa-facebook"></i><span>&nbsp;Facebook</span></a></div>
-        <div><a class="fixed-instagram" href="https://instagram.com/muppers_corp?igshid=1v53c7avxs70" target="_blank"><i class="fa fa-instagram"></i><span>&nbsp;Instagram</span></a></div><div><a class="fixed-whatsapp" href="https://wa.me/525611566832/?text=Hola,%20me%20interesan%20sus%20servicios%2E" target="_blank"><i class="fa fa-whatsapp"></i><span> WhatsApp</span></a></div></div><nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark navbar--apple">
-    <div class="container">
-        <a class="navbar-brand nav-link" href="/"><img class="muppers-logo" alt="Muppers.com" src="assets/img/muppers/muppers-logo.jpg"> Muppers</a> <button data-toggle="collapse" data-target="#menu" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"><i class="la la-navicon"></i></span></button>
-        <div class="collapse navbar-collapse" id="menu">
-            <ul class="nav navbar-nav flex-grow-1 justify-content-between">
-                <li class="nav-item d-none d-xs-block d-md-block"></li>
-                <li class="nav-item"><a class="nav-link" href="/contacto">Contáctanos</a></li>
-                <li class="nav-item"><a class="nav-link" href="/sobre-nosotros">Sobre nosotros</a></li>
-                <li class="nav-item"><a class="nav-link" href="/nuestros-clientes">Nuestros clientes</a></li>
-            </ul>
-        </div>
-    </div>
-</nav><div class="footer-basic" style="  background: #080808;
+    </main><div class="footer-basic" style="  background: #080808;
   color: rgb(255,255,255);
 ">
     <footer>
         <div class="social" style="  color: rgb(211,152,152);
-"><a href="https://instagram.com/muppers_corp?igshid=1v53c7avxs70" target="_blank"><i class="fa fa-instagram" style="  color: #f2f5f8;
+"><a href="https://instagram.com/muppers_corp?igshid=1v53c7avxs70" target="_blank"><i class="fab fa-instagram" style="  color: #f2f5f8;
 "></i></a><a href="https://wa.me/525611566832/?text=Hola,%20me%20interesan%20sus%20servicios%2E" target="_blank"><i class="fab fa-whatsapp" style="color: #f2f5f8;
 "></i></a><a href="https://www.facebook.com/Muppers-104332594467041" target="_blank"><i class="fab fa-facebook-f" style="color: #f2f5f8;
 "></i></a></div>
@@ -81,11 +116,10 @@
         <p class="copyright">Muppers © 2020</p>
     </footer>
 </div>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-        <script src="assets/js/script.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>

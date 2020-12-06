@@ -6,6 +6,11 @@
 RewriteEngine On
 RewriteBase /
 
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
+
+
 # Redirect Trailing Slashes...
 RewriteRule ^(.*)/$ /$1 [L,R=301]
 

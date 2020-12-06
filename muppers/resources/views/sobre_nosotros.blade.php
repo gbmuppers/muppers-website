@@ -17,8 +17,48 @@
     <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//analytics.muppers.com/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
 </head>
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v9.0'
+          });
+        };
 
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="104332594467041"
+  theme_color="#0A7CFF"
+  logged_in_greeting="¡Hola! Bienvenido a Muppers.com ¿Cómo podemos ayudarte?"
+  logged_out_greeting="¡Hola! Bienvenido a Muppers.com ¿Cómo podemos ayudarte?">
+      </div>
 <body><nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark navbar--apple">
     <div class="container">
         <a class="navbar-brand nav-link" href="/"><img class="muppers-logo" alt="Muppers.com" src="assets/img/muppers/muppers-logo.jpg"> Muppers</a> <button data-toggle="collapse" data-target="#menu" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"><i class="la la-navicon"></i></span></button>
@@ -63,7 +103,7 @@
     </h1>
 </div></div>
                         <p></p>
-                        <p>Grace diseñó el B-01 mejor conocido como FLOW-MATIC, un lenguaje de programación que tendría un gran impacto sobre la forma en que se hacía software, pues este mismo es donde se vió el primer compilador.<br>Por allá del 1959 nació
+                        <p style="text-align:justify;">Grace diseñó el B-01 mejor conocido como FLOW-MATIC, un lenguaje de programación que tendría un gran impacto sobre la forma en que se hacía software, pues este mismo es donde se vió el primer compilador.<br>Por allá del 1959 nació
                             COBOL (COmmon Business-Oriented Language), un lenguaje de programación cuyos comandos se diseñaron para que se parecieran al inglés convencional, y fue basado en el lenguaje de programación FLOW-MATIC. A partir de aquí la historia
                             de COBOL comenzó en 1960, donde se presentó la primera versión del compilador seguido de su popularización, los pongo en contexto, COBOL es el<strong> lenguaje de programación más antiguo y que sigue siendo usado hasta la fecha de este artículo</strong>,
                             y no solo eso pues es el 65 % del código activo utilizado en la actualidad; y ejecuta el 85 % de todas las <strong>transacciones comerciales.</strong> IBM afirma que 200 millones de líneas de código COBOL todavía están en uso
