@@ -26,7 +26,7 @@
         <section class="portfolio-block projects-cards" style="color: rgb(255,255,255);background: #080808;">
             <div class="container">
                 <div class="heading">
-                    <h2>EMPRESAS con las que hemos trabajado</h2>
+                    <h2>Empresas con las que hemos trabajado</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
@@ -34,6 +34,15 @@
                             <div class="card-body">
                                 <h6><a href="#">Grupo Constructor Yescas</a></h6>
                                 <p class="text-muted card-text">Sistema de gestión de reporte de gastos y&nbsp; empleados</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><img class="card-img-top w-100 d-block card-img-top scale-on-hover" src="assets/img/muppers/ARGEOTEC.png" alt="Card Image" style="height: 9em;max-width: 17em;max-height: 9em;min-height: 9em;min-width: 17em;width: 17em;">
+                            <div class="card-body">
+                                <h6><a href="https://argeotec.com.mx" target="_blank">ARGEOTEC</a></h6>
+                                <p class="text-muted card-text">Página web de ARGEOTEC&nbsp;</p>
+                                <a href="https://argeotec.com.mx" target="_blank" style="color: rgb(25,168,248);border-color: rgb(0,133,255);">Ver sitio web</a>
                             </div>
                         </div>
                     </div>

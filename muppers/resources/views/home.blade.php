@@ -4,19 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Muppers.com</title>
+    <title>www.muppers.com</title>
     <meta property="og:title" content="Muppers">
-    <meta property="og:image" content="assets/img/muppers/muppers-logo.jpg">
     <meta property="og:type" content="website">
-    <meta name="description" content="Muppers. Soluciones de Software Empresarial. Software Development Company | Empresa de Desarrollo de Software. ">
+    <meta property="og:image" content="assets/img/muppers/muppers-logo.jpg">
+    <meta name="description" content="Muppers. Soluciones de Software Empresarial en el estado de Oaxaca. Software Development Company | Empresa de Desarrollo de Software. ">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
@@ -39,7 +37,7 @@
             <div class="jumbotron hero-nature carousel-hero">
                 <h1 class="hero-title">Muppers</h1>
                 <p class="hero-subtitle">Somos expertos en soluciones de software empresarial y consultoría organizacional para todo tipo de negocio.<br /></p>
-                <p><a class="btn btn-primary btn-lg hero-button" role="button" href="/contacto">Contáctanos</a></p>
+                <p><a class="btn btn-primary btn-lg hero-button" role="button" href="https://www.muppers.com/contacto">Contáctanos</a></p>
             </div>
         </div>
     </div>
@@ -112,9 +110,6 @@
         <p class="copyright">Muppers © 2020</p>
     </footer>
 </div>
-    <div id="fixed-social">
-        <div><a class="fixed-facebook" href="https://www.facebook.com/Muppers-104332594467041" target="_blank"><i class="fa fa-facebook"></i><span>&nbsp;Facebook</span></a></div>
-        <div><a class="fixed-instagram" href="https://instagram.com/muppers_corp?igshid=1v53c7avxs70" target="_blank"><i class="fa fa-instagram"></i><span>&nbsp;Instagram</span></a></div><div><a class="fixed-whatsapp" href="https://wa.me/525611566832/?text=Hola,%20me%20interesan%20sus%20servicios%2E" target="_blank"><i class="fa fa-whatsapp"></i><span> WhatsApp</span></a></div></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>

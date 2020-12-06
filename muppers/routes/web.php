@@ -21,6 +21,10 @@ Route::get('/nuestros-clientes', function () {
     return view('patterns');
 });
 
+Route::get('/sobre-nosotros', function () {
+    return view('sobre_nosotros');
+});
+
 
 Route::get('/Contacto', function () {
     return view('contacto');
