@@ -32,3 +32,5 @@ Route::get('/Contacto', function () {
 Route::view('/contacto','contacto')->name('contacto');
 
 Route::post('contacto','ContactController@store');
+
+Route::view('/planes-paginas-web','planes_paginas_web')->name('planes');
