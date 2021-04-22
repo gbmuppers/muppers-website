@@ -18,46 +18,44 @@
     <link rel="stylesheet" href="assets/css/styles.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
      <!-- Matomo -->
-<script type="text/javascript">
-  var _paq = window._paq = window._paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//analytics.muppers.com/";
-    _paq.push(['setTrackerUrl', u+'matomo.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
+        <script type="text/javascript">
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="//analytics.muppers.com/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '1']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+        </script>
+    <!-- End Matomo Code -->
 </head>
-<!-- Load Facebook SDK for JavaScript -->
-      <div id="fb-root"></div>
+    <!-- Messenger plugin de chat Code -->
+    <div id="fb-root"></div>
       <script>
         window.fbAsyncInit = function() {
           FB.init({
             xfbml            : true,
-            version          : 'v9.0'
+            version          : 'v10.0'
           });
         };
 
         (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
 
-      <!-- Your Chat Plugin code -->
+      <!-- Your plugin de chat code -->
       <div class="fb-customerchat"
-        attribution=setup_tool
-        page_id="104332594467041"
-  theme_color="#0A7CFF"
-  logged_in_greeting="¡Hola! Bienvenido a Muppers.com ¿Cómo podemos ayudarte?"
-  logged_out_greeting="¡Hola! Bienvenido a Muppers.com ¿Cómo podemos ayudarte?">
+        attribution="page_inbox"
+        page_id="104332594467041">
       </div>
 <body style="background: #080808;"><nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark navbar--apple">
     <div class="container">

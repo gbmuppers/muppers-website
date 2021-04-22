@@ -33,31 +33,29 @@
 </script>
 <!-- End Matomo Code -->
 </head>
-<!-- Load Facebook SDK for JavaScript -->
-      <div id="fb-root"></div>
+<!-- Messenger plugin de chat Code -->
+<div id="fb-root"></div>
       <script>
         window.fbAsyncInit = function() {
           FB.init({
             xfbml            : true,
-            version          : 'v9.0'
+            version          : 'v10.0'
           });
         };
 
         (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
 
-      <!-- Your Chat Plugin code -->
+      <!-- Your plugin de chat code -->
       <div class="fb-customerchat"
-        attribution=setup_tool
-        page_id="104332594467041"
-  theme_color="#0A7CFF"
-  logged_in_greeting="¡Hola! Bienvenido a Muppers.com ¿Cómo podemos ayudarte?"
-  logged_out_greeting="¡Hola! Bienvenido a Muppers.com ¿Cómo podemos ayudarte?">
+        attribution="page_inbox"
+        page_id="104332594467041">
       </div>
 <body><nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark navbar--apple">
     <div class="container">

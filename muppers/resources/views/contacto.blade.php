@@ -35,7 +35,30 @@
 </script>
 <!-- End Matomo Code -->
 </head>
+<!-- Messenger plugin de chat Code -->
+<div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
 
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+      <!-- Your plugin de chat code -->
+      <div class="fb-customerchat"
+        attribution="page_inbox"
+        page_id="104332594467041">
+      </div>
 <body>
     <main class="page contact-page">
         <section class="portfolio-block contact" style="background: #080808;color: rgb(255,255,255);">
